@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dr Метод выыод в HTML</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="outselect">
+        вывод массива
+    </div>
+
+    <div class="opereision">
+        <h1>Angeles Victoria Sicret</h1>
+
+        <p>Сортировка по цене</p>
+        <button type="text" class="up">по возрастанию</button>
+        <button type="text" class="doun">по убыванию</button>
+        <button type="text" class="reiting">по рейтингу</button> 
+
+        <select name="book" class="sortirovkatbook">
+            <option>размер фото</option>
+            <option>20 х 50</option>
+            <option>40 х 40</option>
+            <option>18 х 18</option>
+            <option>20 x 20</option>
+            <option>52 x 52</option>
+        </select>
+
+        <div class="foto-wrap">
+            <div class="cards1" data-sort="719">1</div>
+            <div class="cards2" data-sort="619">2</div>
+            <div class="cards3" data-sort="319">3</div>
+            <div class="cards4" data-sort="419">4</div>
+            <div class="cards5" data-sort="752">5</div>
+        </div> 
+
+        <div>
+            <form>
+                <div class="form-country">
+                    <p>Cтрана производитель:</p>
+                    <div>
+                    <input type="radio" id="contactChoice1" name="contact" value="vengriya">
+                    <label for="contactChoice1">
+                        Венгрия
+                    </label>
+                    <input type="radio" id="contactChoice2" name="contact" value="yamayka">
+                    <label for="contactChoice2">
+                        Ямайка
+                    </label>
+                    <input type="radio" id="contactChoice3" name="contact" value="brasil">
+                    <label for="contactChoice3">
+                        Бразилия
+                    </label>
+                    <input type="radio" id="contactChoice4" name="contact" value="belgiya">
+                    <label for="contactChoice3">
+                        Бельгия
+                    </label>
+                    <input type="radio" id="contactChoice5" name="contact" value="usa">
+                    <label for="contactChoice3">
+                        США
+                    </label>
+                </div>
+                <div>
+                  <button type="text">выбрать</button>
+                </div>
+            </form>
+
+        </div> 
+    </div>
+
+    <div class="nav">
+        <div class="barbara-palvin" class="prodacts" data-sort="1" data-desc="115">
+            <img class="imgbarbara" src="https://i0.wp.com/bigbucks.com.ua/wp-content/uploads/2021/01/31-barbara-palvin.jpg">
+        </div>
+        <div class="jasmin-tucs" class="prodacts" data-sort="2" data-desc="53">
+            <img class="imgjasmin" src="https://karavan.ua/wp-content/uploads/2020/09/GettyImages-626804278.jpg">
+        </div>
+        <div class="leomi-anderson" class="prodacts" data-sort="3" data-desc="75">
+            <img class="imgleomi" src="https://karavan.ua/wp-content/uploads/2017/11/GettyImages-876613968.jpg">
+        </div>
+        <div class="adriana-lima" class="prodacts" data-sort="4" data-desc="48">
+            <img class="imgadriana" src="https://i0.wp.com/bigbucks.com.ua/wp-content/uploads/2021/01/26-adriana-lima.jpg">
+        </div>
+        <div class="ctella-maksvell" class="prodacts" data-sort="5" data-desc="78">
+            <img class="imgstella" src="https://karavan.ua/wp-content/uploads/2019/03/GettyImages-1059478782-e1552650222340.jpg">
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
